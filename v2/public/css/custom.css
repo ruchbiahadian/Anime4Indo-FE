@@ -1,0 +1,399 @@
+
+@font-face{
+    font-family: quicksand;
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+    font-family: nunito;
+    src: url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+}
+
+
+@media (max-width: 576px),(max-width: 991.98px) { 
+    
+    .container{
+        overflow: hidden;
+    }
+
+    .navbar-nav{
+        border-bottom: solid 4px #00ADB5 ;
+    }
+
+    .btn-custom{
+        font-size: 13.23px !important;
+        padding: 10px 16px 10px 16px !important;
+        margin-bottom: 36px !important;
+    }
+
+    .header .container .hero{
+        padding-bottom: 60px !important;
+        padding-top: 20px !important;
+    }
+
+    .hero{
+        padding: 25px;
+    }
+
+    .hero h1, .layanan h1, .keunggulan h5, .footer h1{
+        font-size: x-large;
+    }
+
+    .hero h4, .layanan h4, .keunggulan h4, .footer h3{
+        font-size: larger;
+    }
+    
+    .hero img{
+        width: 100%;
+        margin-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    .layanan{
+        margin-top: 105px !important;
+    }
+
+    .layanan img{
+        width: 100%;
+    }
+
+    .layanan .satu{
+        padding: 30px;
+    }
+
+    .layanan .satu{
+        background-color: none;
+    }
+
+    .layanan .dua{
+        background-color: none;
+        margin-top: 0px !important;
+    }
+
+    .layanan .subTittle{
+        margin-bottom: 40px;
+    }
+
+    .valuePropotion{
+        background-color: #2b333f;
+        margin-top: 100px !important;
+    }
+
+    .vpDua{
+        border-bottom: solid 6.9px #00ADB5 ;
+        padding-top: 20px;
+    }
+
+    .vpDua .dua{
+        border: none;
+    }
+
+    .subTittle{
+        font-size: x-large !important;
+    }
+
+    .bungkusIcon{
+        float: none !important;
+        margin-top: 50px !important;
+        width: 60% !important;
+    }
+
+    .bungkusIcon img{
+        width: 30% !important;
+    }
+
+    .bungkusText{
+        margin: auto !important;
+        float: none !important;
+    }
+
+    .keunggulan{
+        margin-top: 116px !important; 
+    }
+
+    .keunggulan img{
+        padding: 20px;
+    }
+
+    .keunggulan .subTittle{
+        margin-bottom: -110px !important;
+    }
+
+    .col1Foot{
+        padding: 30px;
+        float: none !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+   .col1Foot ul{
+       display: inline-block ;
+   }
+
+    .col2Foot{
+        padding: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .col2Foot h3{
+        text-align: center !important;
+    }
+
+    
+}
+
+@media (max-width: 1199.98px) {
+    .container{
+        overflow: hidden;
+    }
+
+    .hero img{
+        width: 100%;
+        float: right !important;
+        margin: auto !important;
+    }
+
+    .dua{
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        margin: auto !important;
+        margin-top: 60px !important;
+    }
+
+    .btn-custom{
+        font-size: 16.23px !important;
+        padding: 12px 18px 12px 18px !important;
+        margin-bottom: 8px !important;
+    }
+
+
+    h1, .navbar-brand h1{
+        font-size: 28.94px !important;
+    }
+    
+    h3, .navbar-nav h3{
+        font-size: 20.65px !important;
+    }
+    
+    h4{
+        font-size: 18.85px !important;
+    }
+    
+    h5{
+        font-size: 22.92px !important;
+    }
+
+    .bungkusIcon{
+        width: 90% !important;
+    }
+
+    .bungkusIcon img{
+        width: 36% !important;
+    }
+
+}
+
+
+body{
+    background-color:#222831;
+    color: #C1C1C1;
+}
+
+h1{
+    font-size: 37.94px;
+    font-family: quicksand;
+    color: #00ADB5;
+}
+
+h3{
+    font-size: 21.65px;
+    font-family: nunito;
+}
+
+h4{
+    font-size: 23.85px;
+    line-height:1.5;
+    font-family: nunito;
+    text-align: left;
+}
+
+h5{
+    font-family: quicksand;
+    font-size: 27.92px;
+    color: #00ADB5;
+}
+
+.header{
+    background-color: #2b333f;
+    border-bottom: solid 6.9px #00ADB5 ;
+}
+
+.hero h4{
+    text-align: justify;
+}
+
+.btn-custom{
+    font-family: quicksand;
+    font-size: 18.23px;
+    padding: 14px 20px 14px 20px;
+    background-color:#00ADB5;
+    border: 0;
+    border-radius: 30px;
+    color: #222831;
+    min-width: 117px;
+}
+
+.btn-custom:hover{
+    
+    background-color:#02848b;
+    color: #222831;
+    border: 0;
+}
+
+.btn-custom:focus{
+    box-shadow: none;
+}
+
+.header .container .hero{
+    padding-bottom: 150px;
+    padding-top: 80px;
+}
+
+/* .navbar{
+    border-bottom: solid 6.9px #00ADB5 ;
+} */
+
+.navbar-brand h1{
+    font-size: 26px;
+    margin-left: 0px;
+}
+
+.navbar-nav li{
+    margin-left: 30px;
+    
+}
+
+.navbar-nav li a h3{
+    color: #C1C1C1;
+}
+
+.navbar-nav li a h3:hover{
+    color: #00ADB5;
+}
+
+.layanan{
+    margin-top: 150px;
+}
+
+.subTittle{
+    color: #00ADB5;
+    text-align: center;
+    margin-bottom: -70px;
+    font-size: 37.94px;
+    font-family: quicksand;
+
+}
+
+.valuePropotion{
+    /* background-color: #2b333f; */
+    /* height: 305px; */
+    margin-top: 170px;
+}
+
+.satu{
+    padding: 0;
+    padding-top: 32px;
+    margin: auto;
+}
+
+.dua{
+    background-color: #2b333f;
+    padding-top: 22px;
+    padding-bottom: 24px;
+    border-bottom: solid 6.9px #00ADB5 ;
+    padding-left: 45px;
+    margin-top: auto;
+    margin-top: 58px;
+    margin-bottom: auto;
+}
+
+.keunggulan{
+    margin-top: 150px;
+}
+
+.keunggulanIcon{
+    margin-top: 170px;
+}
+
+.bungkusIcon{
+    background-color: #2b333f;
+    width: 311px;
+    height: 311px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 6.9px #00ADB5 ;
+    overflow: hidden;
+}
+
+
+.bungkusText{
+    width: 311px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 100px;
+}
+
+.bungkusTextIcon{
+    text-align: center;
+    
+}
+
+.bungkusTextIcon h4{
+    text-align: center;
+}
+
+.footer{
+    background-color: #2b333f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+}
+
+.footer ul{
+    padding-left: 0px;
+    margin-left: -20px;
+}
+
+.footer ul li{
+    float: left;
+    text-decoration: none;
+    display: block;
+    margin-left: 20px;
+}
+
+
+.footer ul li a{
+    text-decoration: none;
+    color: #C1C1C1;
+}
+
+.footer ul li a:hover{
+    color: #02848b;
+}
+
+.footer h3{
+    text-align: right;
+    line-height: 1.5;
+}
+
+.footer h3 a{
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+.footer h3 a:hover{
+    color: #02848b;
+}
